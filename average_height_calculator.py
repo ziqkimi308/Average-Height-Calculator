@@ -1,3 +1,12 @@
+################################################################################
+# Project Name:  Average Height Calculator
+# Description:   This project calculates the average height of user input
+# Author:        ziqkimi308
+# Created:       2024-12-03
+# Updated:       2024-12-03
+# Version:       1.0
+################################################################################
+
 print("Welcome to the Average Height Calculator!")
 # Convert input str into list
 height = input("Enter height separated by space: \n").split(" ")
@@ -18,4 +27,3 @@ for i in height:
 # Calculate avg
 avg_height = total_height / total_student
 print(round(avg_height))
-
