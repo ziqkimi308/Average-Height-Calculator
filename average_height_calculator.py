@@ -17,5 +17,5 @@ for i in height:
 
 # Calculate avg
 avg_height = total_height / total_student
-print(avg_height)
+print(round(avg_height))
 
